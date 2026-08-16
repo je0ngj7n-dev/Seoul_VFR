@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- written by WED 2.7.2-r1 -->
+<doc>
+  <objects>
+    <object class="WED_Root" id="1" parent_id="0">
+      <children>
+        <child id="2"/>
+        <child id="3"/>
+        <child id="4"/>
+      </children>
+      <hierarchy name="root"/>
+    </object>
+    <object class="WED_Select" id="2" parent_id="1">
+      <children/>
+      <hierarchy name="selection"/>
+      <selection>
+        <sel id="34"/>
+      </selection>
+    </object>
+    <object class="WED_KeyObjects" id="3" parent_id="1">
+      <children/>
+      <hierarchy name="choices"/>
+      <keys>
+        <key name="airport" id="0"/>
+      </keys>
+    </object>
+    <object class="WED_Group" id="4" parent_id="1">
+      <children>
+        <child id="30"/>
+      </children>
+      <hierarchy name="world" locked="0" hidden="0"/>
+    </object>
+    <object class="WED_Ring" id="12" parent_id="13">
+      <children>
+        <child id="14"/>
+        <child id="15"/>
+        <child id="16"/>
+        <child id="17"/>
+        <child id="18"/>
+        <child id="19"/>
+        <child id="20"/>
+        <child id="21"/>
+        <child id="22"/>
+        <child id="23"/>
+        <child id="24"/>
+        <child id="25"/>
+        <child id="26"/>
+        <child id="27"/>
+        <child id="28"/>
+      </children>
+      <hierarchy name="Exclusion 1 Outer Ring" locked="0" hidden="0"/>
+    </object>
+    <object class="WED_ExclusionPoly" id="13" parent_id="30">
+      <children>
+        <child id="12"/>
+      </children>
+      <hierarchy name="Exclusion Poly 1" locked="0" hidden="0"/>
+      <exclusions>
+        <exclusion value="Objects"/>
+        <exclusion value="Road Networks"/>
+      </exclusions>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="14" parent_id="12">
+      <children/>
+      <hierarchy name="Node 1" locked="0" hidden="0"/>
+      <point latitude="37.535077869" longitude="126.909336534"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="15" parent_id="12">
+      <children/>
+      <hierarchy name="Node 2" locked="0" hidden="0"/>
+      <point latitude="37.528050487" longitude="126.911312764"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="16" parent_id="12">
+      <children/>
+      <hierarchy name="Node 3" locked="0" hidden="0"/>
+      <point latitude="37.521393460" longitude="126.916307071"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="17" parent_id="12">
+      <children/>
+      <hierarchy name="Node 4" locked="0" hidden="0"/>
+      <point latitude="37.518342242" longitude="126.918513598"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="18" parent_id="12">
+      <children/>
+      <hierarchy name="Node 5" locked="0" hidden="0"/>
+      <point latitude="37.516308775" longitude="126.927685175"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="19" parent_id="12">
+      <children/>
+      <hierarchy name="Node 6" locked="0" hidden="0"/>
+      <point latitude="37.516586390" longitude="126.933837960"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="20" parent_id="12">
+      <children/>
+      <hierarchy name="Node 7" locked="0" hidden="0"/>
+      <point latitude="37.517695871" longitude="126.941035683"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="21" parent_id="12">
+      <children/>
+      <hierarchy name="Node 8" locked="0" hidden="0"/>
+      <point latitude="37.518805254" longitude="126.944866887"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="22" parent_id="12">
+      <children/>
+      <hierarchy name="Node 9" locked="0" hidden="0"/>
+      <point latitude="37.524168840" longitude="126.940920134"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="23" parent_id="12">
+      <children/>
+      <hierarchy name="Node 10" locked="0" hidden="0"/>
+      <point latitude="37.528885012" longitude="126.936043914"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="24" parent_id="12">
+      <children/>
+      <hierarchy name="Node 11" locked="0" hidden="0"/>
+      <point latitude="37.531936530" longitude="126.931979958"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="25" parent_id="12">
+      <children/>
+      <hierarchy name="Node 12" locked="0" hidden="0"/>
+      <point latitude="37.533878162" longitude="126.926406240"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="26" parent_id="12">
+      <children/>
+      <hierarchy name="Node 13" locked="0" hidden="0"/>
+      <point latitude="37.535911891" longitude="126.919903247"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="27" parent_id="12">
+      <children/>
+      <hierarchy name="Node 14" locked="0" hidden="0"/>
+      <point latitude="37.536650501" longitude="126.912471294"/>
+    </object>
+    <object class="WED_SimpleBoundaryNode" id="28" parent_id="12">
+      <children/>
+      <hierarchy name="Node 15" locked="0" hidden="0"/>
+      <point latitude="37.536742443" longitude="126.909800457"/>
+    </object>
+    <object class="WED_Group" id="29" parent_id="30">
+      <children>
+        <child id="34"/>
+        <child id="32"/>
+      </children>
+      <hierarchy name="Objects" locked="0" hidden="0"/>
+    </object>
+    <object class="WED_Group" id="30" parent_id="4">
+      <children>
+        <child id="13"/>
+        <child id="29"/>
+      </children>
+      <hierarchy name="Yeouido" locked="0" hidden="0"/>
+    </object>
+    <object class="WED_ObjPlacement" id="32" parent_id="29">
+      <children/>
+      <hierarchy name="NAB.obj" locked="0" hidden="0"/>
+      <point latitude="37.531885620" longitude="126.913068842" heading="53.07"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="Models/NAB/NAB.obj" show_level="1 Default"/>
+    </object>
+    <object class="WED_ObjPlacement" id="34" parent_id="29">
+      <children/>
+      <hierarchy name="main.obj" locked="0" hidden="0"/>
+      <point latitude="37.523770689" longitude="126.916567231" heading="323.36"/>
+      <obj_placement custom_msl="0" msl="0.0" resource="Models/KBS/main.obj" show_level="1 Default"/>
+    </object>
+  </objects>
+  <prefs>
+    <pref name="PropertyPane0/Closed"/>
+    <pref name="doc/export_target" value="7"/>
+    <pref name="doc/xml_compatibility" value="205"/>
+    <pref name="export/last" value="+30+120/+37+126.dsf"/>
+    <pref name="map/east" value="126.917885"/>
+    <pref name="map/navaid_map_vis" value="0"/>
+    <pref name="map/north" value="37.525326"/>
+    <pref name="map/obj_density" value="6"/>
+    <pref name="map/pavement_alpha" value="4"/>
+    <pref name="map/preview_vis" value="1"/>
+    <pref name="map/real_lines_vis" value="1"/>
+    <pref name="map/slippy_vis" value="2"/>
+    <pref name="map/south" value="37.523552"/>
+    <pref name="map/vertices_vis" value="1"/>
+    <pref name="map/west" value="126.915161"/>
+    <pref name="map/world_map_vis" value="1"/>
+    <pref name="map_Airport Beacon_Kind" value="133"/>
+    <pref name="map_Autogen_Autogen Height" value="10.000000"/>
+    <pref name="map_Autogen_Resource" value=""/>
+    <pref name="map_Boundary_.Markings" value=""/>
+    <pref name="map_Boundary_Lights" value=""/>
+    <pref name="map_Boundary_Markings" value=""/>
+    <pref name="map_Exclusion Polys_Exclusion" value=""/>
+    <pref name="map_Exclusion Zones_Exclusions" value=""/>
+    <pref name="map_Facades_Height" value="10.000000"/>
+    <pref name="map_Facades_Pick Walls" value="1"/>
+    <pref name="map_Facades_Resource" value="MisterX_Library/Airport/Fences_Barriers/Metal_Fence_Red.fac"/>
+    <pref name="map_Forests_Density" value="1.000000"/>
+    <pref name="map_Forests_Resource" value="MisterX_Library/Vegetation/Grass/Dark/Grass_Shrubs_0.6m.for"/>
+    <pref name="map_Helipad_Edge Lights" value="16"/>
+    <pref name="map_Helipad_Markings" value="131"/>
+    <pref name="map_Helipad_Roughness" value="0.000000"/>
+    <pref name="map_Helipad_Shoulder" value="86"/>
+    <pref name="map_Helipad_Surface" value="49"/>
+    <pref name="map_Hole_.Markings" value=""/>
+    <pref name="map_Hole_Lights" value=""/>
+    <pref name="map_Hole_Markings" value=""/>
+    <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
+    <pref name="map_Light Fixture_Fixture Type" value="63"/>
+    <pref name="map_Lines_Resource" value="MisterX_Library/Ground_Textures/Road_Dirt_1.lin"/>
+    <pref name="map_Objects_Object" value="Models/KBS/main.obj"/>
+    <pref name="map_Objects_Show with" value="810"/>
+    <pref name="map_Objects_max Heading" value="0.000000"/>
+    <pref name="map_Objects_min Heading" value="0.000000"/>
+    <pref name="map_Polygons_Heading" value="0.000000"/>
+    <pref name="map_Polygons_Resource" value="MisterX_Library/Ground_Textures/Concrete_4_New_7m.pol"/>
+    <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
+    <pref name="map_Ramp Start_Airlines" value=""/>
+    <pref name="map_Ramp Start_Equipment Type" value=""/>
+    <pref name="map_Ramp Start_Ramp Operation Type" value="756"/>
+    <pref name="map_Ramp Start_Ramp Start Type" value="203"/>
+    <pref name="map_Ramp Start_Size" value="753"/>
+    <pref name="map_Roads_Layer" value="0"/>
+    <pref name="map_Roads_Name" value="N"/>
+    <pref name="map_Roads_Resource" value="lib/g10/roads.net"/>
+    <pref name="map_Roads_Slop" value="10"/>
+    <pref name="map_Roads_Type" value="100"/>
+    <pref name="map_Runway_Appch" value="81"/>
+    <pref name="map_Runway_Center" value="1"/>
+    <pref name="map_Runway_Dist" value="1"/>
+    <pref name="map_Runway_Edge" value="7"/>
+    <pref name="map_Runway_Marks" value="119"/>
+    <pref name="map_Runway_REIL" value="10"/>
+    <pref name="map_Runway_Rough" value="0.000000"/>
+    <pref name="map_Runway_Shoulder" value="86"/>
+    <pref name="map_Runway_Surface" value="49"/>
+    <pref name="map_Runway_TDZL" value="0"/>
+    <pref name="map_Sealane_Buoys" value="1"/>
+    <pref name="map_Shapes_Property Text" value=""/>
+    <pref name="map_Sign_Size" value="19"/>
+    <pref name="map_Sign_Style" value="24"/>
+    <pref name="map_Sign_Text" value="{@L}G"/>
+    <pref name="map_Strings_Resource" value=""/>
+    <pref name="map_Strings_Spacing" value="5.000000"/>
+    <pref name="map_Taxi Routes_Allowed Vehicles" value="208"/>
+    <pref name="map_Taxi Routes_Arrival" value=""/>
+    <pref name="map_Taxi Routes_Departure" value=""/>
+    <pref name="map_Taxi Routes_ILS" value=""/>
+    <pref name="map_Taxi Routes_Name" value="N"/>
+    <pref name="map_Taxi Routes_Oneway" value="1"/>
+    <pref name="map_Taxi Routes_Runway" value="477"/>
+    <pref name="map_Taxi Routes_Size" value="753"/>
+    <pref name="map_Taxi Routes_Slop" value="10"/>
+    <pref name="map_Taxilines_.Markings" value=""/>
+    <pref name="map_Taxilines_Lights" value=""/>
+    <pref name="map_Taxilines_Markings" value=""/>
+    <pref name="map_Taxiway_.Markings" value=""/>
+    <pref name="map_Taxiway_Heading" value="0.000000"/>
+    <pref name="map_Taxiway_Lights" value=""/>
+    <pref name="map_Taxiway_Markings" value=""/>
+    <pref name="map_Taxiway_Pavement" value="49"/>
+    <pref name="map_Taxiway_Roughness" value="0.000000"/>
+    <pref name="map_Tower Viewpoint_Tower Height" value="25.000000"/>
+    <pref name="map_Truck Destination_Truck Types" value=""/>
+    <pref name="map_Truck Parking_." value="3"/>
+    <pref name="map_Truck Parking_Truck Type" value="218"/>
+    <pref name="map_Vertex_Show Node Numbers" value="0"/>
+    <pref name="map_Vertex_Snap To Vertices" value="0"/>
+    <pref name="map_Windsock_Lit" value="0"/>
+    <pref name="map_preview_window/camera_agl" value="24.227944"/>
+    <pref name="map_preview_window/camera_lat" value="35.138729"/>
+    <pref name="map_preview_window/camera_lon" value="126.810329"/>
+    <pref name="map_preview_window/camera_pitch" value="-10.000000"/>
+    <pref name="map_preview_window/camera_yaw" value="0.000000"/>
+    <pref name="map_preview_window/height" value="787"/>
+    <pref name="map_preview_window/visible" value="0"/>
+    <pref name="map_preview_window/width" value="1024"/>
+    <pref name="map_preview_window/x_loc" value="26"/>
+    <pref name="map_preview_window/y_loc" value="26"/>
+    <pref name="window/height" value="773"/>
+    <pref name="window/main_split" value="300"/>
+    <pref name="window/main_split2" value="1278"/>
+    <pref name="window/prev_split" value="482"/>
+    <pref name="window/prop_split" value="609"/>
+    <pref name="window/width" value="1536"/>
+    <pref name="window/x_loc" value="-8"/>
+    <pref name="window/y_loc" value="-8"/>
+  </prefs>
+</doc>
